@@ -1,4 +1,4 @@
-# 3_Tier_Web_Architecture
+# 3_Tier_Web_Architecture_AquilaCMS
 
 - This Architecture is not focusing on Availability and Scalability .
 
@@ -24,3 +24,12 @@
     4. EC2
     5. RDS
     6. IAM
+   
+# Setting up Aquilla 
+1. To install the latest AquilaCMS, you need :
+  - node.js 18.16.0+ (tested in v14.20.1+ and v16.18.1+)
+  - mongoDB 6.0.2+ (tested in v4.2.5+)
+  - yarn 3.4.1+ package manager (tested in v1.22.19 and v4.0.0-rc.35)
+
+For further details check -> https://github.com/AquilaCMS/AquilaCMS
+
