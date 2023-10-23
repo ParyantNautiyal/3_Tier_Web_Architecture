@@ -13,7 +13,7 @@
     1. A VPC.
     2. public subnet ( Web Tier)
     3. private subnet (Application Tier).
-    4. private subnet (Database Tier).
+    4. private subnet (Database Tier). We are using Mongodb in EC2
     5. public route table that connects the public subnet to an internet gateway.
     6. private route table that will connect the Application Tier private subnet and a NAT gateway.
 
@@ -22,14 +22,14 @@
     2. NAT gateway
     3. subnets
     4. EC2
-    5. RDS
+    5. EC2(For MongoDB)
     6. IAM
    
 # Setting up Aquilla 
 
 1. To install the latest AquilaCMS, you need :
   - node.js 18.16.0+ (tested in v14.20.1+ and v16.18.1+)
-  - mongoDB 6.0.2+ (tested in v4.2.5+)
+  - mongoDB 6.0.2+ (tested in v4.2.5+) // for AWS we are using dynamoDB
   - yarn 3.4.1+ package manager (tested in v1.22.19 and v4.0.0-rc.35)
 
 For further details check -> https://github.com/AquilaCMS/AquilaCMS
