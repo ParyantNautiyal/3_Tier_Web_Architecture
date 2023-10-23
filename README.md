@@ -26,6 +26,7 @@
     6. IAM
    
 # Setting up Aquilla 
+
 1. To install the latest AquilaCMS, you need :
   - node.js 18.16.0+ (tested in v14.20.1+ and v16.18.1+)
   - mongoDB 6.0.2+ (tested in v4.2.5+)
