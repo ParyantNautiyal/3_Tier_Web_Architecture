@@ -29,7 +29,7 @@
 
 1. To install the latest AquilaCMS, you need :
   - node.js 18.16.0+ (tested in v14.20.1+ and v16.18.1+)
-  - mongoDB 6.0.2+ (tested in v4.2.5+) // for AWS we are using dynamoDB
+  - mongoDB 6.0.2+ (tested in v4.2.5+) // for AWS we are EC2 instance with mongoDB installed
   - yarn 3.4.1+ package manager (tested in v1.22.19 and v4.0.0-rc.35)
 
 For further details check -> https://github.com/AquilaCMS/AquilaCMS
